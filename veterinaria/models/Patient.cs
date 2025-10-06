@@ -3,19 +3,20 @@ using System.Collections.Generic;
 namespace veterinaria.models;
 public class Patient
 {
+	public Guid Id { get; private set; } // Identificador único
 	public string Name { get; set; }
 	public int Age { get; set; }
 	public string Address { get; set; }
 	public string Phone { get; set; }
-	public List<Pet> Pets { get; set; }
+	private List<Pet> Pets { get; set; } = new List<Pet>();
 
 	public Patient(string name, int age, string address, string phone)
 	{
+		Id = Guid.NewGuid(); // Asigna un GUID único al paciente
 		Name = name;
 		Age = age;
 		Address = address;
 		Phone = phone;
-		Pets = new List<Pet>();
 	}
 
 	public void AddPet(Pet pet)
@@ -25,16 +26,15 @@ public class Patient
 
 	public void ShowInfo()
 	{
-		Console.WriteLine($"Patient: {Name}, Age: {Age}, Address: {Address}, Phone: {Phone}");
+		Console.WriteLine($"ID: {Id}\nNombre: {Name}, Edad: {Age}, Dirección: {Address}, Teléfono: {Phone}");
 	}
 
 	public void ShowAllPets()
 	{
-		Console.WriteLine($"Pets of {Name}:");
+		Console.WriteLine("Mascotas:");
 		foreach (var pet in Pets)
 		{
 			pet.ShowInfo();
 		}
 	}
 }
-

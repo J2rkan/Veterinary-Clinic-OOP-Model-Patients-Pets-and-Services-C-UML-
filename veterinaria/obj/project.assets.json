@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/Coder/Escritorio/jerkan/c#/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/veterinaria.csproj",
+      "projectUniqueName": "/home/Coder/RiderProjects/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/veterinaria.csproj",
       "projectName": "veterinaria",
-      "projectPath": "/home/Coder/Escritorio/jerkan/c#/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/veterinaria.csproj",
+      "projectPath": "/home/Coder/RiderProjects/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/veterinaria.csproj",
       "packagesPath": "/home/Coder/.nuget/packages/",
-      "outputPath": "/home/Coder/Escritorio/jerkan/c#/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/obj/",
+      "outputPath": "/home/Coder/RiderProjects/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/Coder/.nuget/NuGet/NuGet.Config"

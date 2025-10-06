@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = veterinaria
-build_property.ProjectDir = /home/Coder/Escritorio/jerkan/c#/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/
+build_property.ProjectDir = /home/Coder/RiderProjects/Veterinary-Clinic-OOP-Model-Patients-Pets-and-Services-C-UML-/veterinaria/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
